@@ -1,7 +1,0 @@
-🧩 Introdução – Criptografia por Transposição Colunar em C
-
-A criptografia por transposição colunar é um tipo de cifra clássica usada para proteger mensagens reorganizando a ordem das letras do texto original, sem alterá-las. Diferente das cifras de substituição (que trocam letras por outras), a transposição apenas muda a posição dos caracteres, tornando a mensagem ilegível sem a chave correta.
-
-O processo funciona assim: a mensagem é escrita em linhas dentro de uma tabela (matriz) organizada por colunas, de acordo com uma palavra-chave. Em seguida, as colunas são lidas em uma nova ordem, determinada pela sequência alfabética das letras da palavra-chave. Isso cria o texto criptografado.
-
-No programa em linguagem C, esse método é implementado utilizando vetores e matrizes de caracteres, manipulando índices para organizar e reordenar o texto. O objetivo é mostrar como a lógica da criptografia pode ser aplicada de forma prática na programação, reforçando conceitos de strings, matrizes e laços de repetição.
