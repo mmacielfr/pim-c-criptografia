@@ -38,7 +38,7 @@ void descriptografarSubstituicao(char texto[], char original[], char substituto[
     }
 }
 
-int main() {
+void sub() {
     char alfabeto[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     char chave[] = "QWERTYUIOPASDFGHJKLZXCVBNM";
 
@@ -56,6 +56,4 @@ int main() {
     descriptografarSubstituicao(texto, alfabeto, chave);
     printf("\nMensagem descriptografada: %s\n", texto);
 
-    return 0;
 }
-

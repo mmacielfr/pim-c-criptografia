@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+void codigo() {
     char texto[100], chave[20];
     int i, j, opcao, tamTexto, tamChave;
 
@@ -91,5 +91,4 @@ int main() {
         printf("Opcao invalida!\n");
     }
 
-    return 0;
 }

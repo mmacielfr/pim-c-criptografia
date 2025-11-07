@@ -36,7 +36,7 @@ void descriptografar(char texto[], int chave) {
     }
 }
 
-int main() {
+void principal() {
     char texto[1000];
     int chave, opcao;
     
@@ -49,7 +49,7 @@ int main() {
     // Valida a chave
     if (chave < 0 || chave > 25) {
         printf("Erro: Chave inválida! Use um valor entre 0 e 25.\n");
-        return 1;
+        return;
     }
     
     // Solicita a operação
@@ -80,8 +80,7 @@ int main() {
     }
     else {
         printf("Erro: Opção inválida!\n");
-        return 1;
+        return;
     }
     
-    return 0;
 }
